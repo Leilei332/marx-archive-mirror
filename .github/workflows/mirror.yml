@@ -24,6 +24,7 @@ jobs:
           repository: 'Leilei332/marx-archive-website'
           path: 'marx'
           ref: 'main'
+          token: ${{ secrets.PUSH_TOKEN }}
       - name: push
         run: |
           cp -r archive/* marx

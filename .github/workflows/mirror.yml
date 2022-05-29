@@ -1,4 +1,4 @@
-name: uodate-repository
+name: update-repository
 
 on:
   schedule:
@@ -25,7 +25,7 @@ jobs:
           ref: 'main'
       - name: push
         run: |
-          cp archive/* marx
+          cp -r archive/* marx
           cd marx
           date > log.txt
           git config user.name github-actions

@@ -5,6 +5,7 @@ on:
     - cron: '0 16 * * *'
   workflow_dispatch:
 
+permissions: read-all|write-all
 
 jobs:
   test_schedule:

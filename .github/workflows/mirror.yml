@@ -1,0 +1,35 @@
+name: uodate-repository
+
+on:
+  schedule:
+    - cron: '0 16 * * *'
+  workflow_dispatch:
+
+
+jobs:
+  test_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: clone
+        uses: sudosubin/git-clone-action@release
+        with:
+          repository: 'Leilei332/web-archive'
+          platform: 'gitlab'
+          path: 'archive'
+          ref: 'master'
+      - name: clone
+        uses: actions/checkout@v3
+        with:
+          repository: 'Leilei332/marx-archive-website'
+          path: 'marx'
+          ref: 'main'
+      - name: push
+        run: |
+          cp archive/* marx
+          cd marx
+          date > log.txt
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Daily Update"
+          git push origin main

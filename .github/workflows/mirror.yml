@@ -21,7 +21,7 @@ jobs:
       - name: clone
         uses: actions/checkout@v3
         with:
-          repository: 'Leilei332/marx-archive-website'
+          repository: 'Leilei332/marx-archive-mirror'
           path: 'marx'
           ref: 'main'
       - name: push
@@ -31,7 +31,6 @@ jobs:
           date > log.txt
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git remote set-url origin https://github.com/Leilei332/marx-archive-mirror.git
           git add .
           git commit -m "Daily Update"
           git push origin main

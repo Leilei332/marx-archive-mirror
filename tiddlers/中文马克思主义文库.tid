@@ -1,5 +1,5 @@
 created: 20220520010351236
-modified: 20220526063031144
+modified: 20220603095540688
 tags: 
 title: 中文马克思主义文库
 type: text/vnd.tiddlywiki
@@ -23,6 +23,8 @@ type: text/vnd.tiddlywiki
 </$set>
 
 </$set>
+
+<<tag 第一国际>> <<tag 第二国际>>
 
 <<tag 马克思>> <<tag 恩格斯>> <<tag 列宁>>
 

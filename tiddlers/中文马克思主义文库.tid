@@ -1,5 +1,5 @@
 created: 20220520010351236
-modified: 20220603095540688
+modified: 20220605132230199
 tags: 
 title: 中文马克思主义文库
 type: text/vnd.tiddlywiki
@@ -8,24 +8,16 @@ type: text/vnd.tiddlywiki
 
 仅对排版进行修改，不更改内容。
 
-<$set name="tv-config-toolbar-icons" value="yes">
-
-<$set name="tv-config-toolbar-text" value="yes">
-
-<$set name="tv-config-toolbar-class" value="">
+<$let tv-config-toolbar-icons="yes" tv-config-toolbar-text="yes" tv-config-toolbar-class="">
 
 <details><summary>工具</summary>
 {{$:/core/ui/Buttons/palette}} {{$:/core/ui/Buttons/theme}} {{$:/core/ui/Buttons/storyview}} 
 </details>
 
-</$set>
+</$let>
 
-</$set>
+<<.tag 第一国际>> <<.tag 第二国际>> <<.tag 第三国际>>
 
-</$set>
+<<.tag 马克思>> <<.tag 恩格斯>> <<.tag 列宁>>
 
-<<tag 第一国际>> <<tag 第二国际>>
-
-<<tag 马克思>> <<tag 恩格斯>> <<tag 列宁>>
-
-<<tag 毛泽东>> <<tag 邓中夏>> <<tag 周恩来>> <<tag 李大钊>> <<tag 陈独秀>>
+<<.tag 毛泽东>> <<.tag 邓中夏>> <<.tag 周恩来>> <<.tag 李大钊>> <<.tag 陈独秀>>

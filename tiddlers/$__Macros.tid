@@ -1,5 +1,5 @@
 created: 20220519054755697
-modified: 20220527004117215
+modified: 20220605074526836
 tags: $:/tags/Macro
 title: $:/Macros
 type: text/vnd.tiddlywiki
@@ -27,3 +27,4 @@ $_$
 \define .center(_) <p style="text-align:center;">$_$</p>
 \define .rt(_) <p style="text-align:right;">$_$</p>
 \define .fn(_) <p style="text-align:right;">//$_$//</p>
+\define .tag(_) <$link to="$_$"><<tag-pill "$_$">></$link>

@@ -5,4 +5,4 @@ name: Extended Palettes
 plugin-type: plugin
 title: $:/plugins/XLBilly/extended-palettes
 type: application/json
-version: 0.0.1
+version: 0.0.2

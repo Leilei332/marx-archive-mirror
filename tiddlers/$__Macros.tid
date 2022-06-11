@@ -1,10 +1,13 @@
 created: 20220519054755697
-modified: 20220607064019904
+modified: 20220611000401392
 tags: $:/tags/Macro
 title: $:/Macros
 type: text/vnd.tiddlywiki
 
 \define .ref-style(name text color size dir)
+<$button class="tc-btn-invisible" popup=<<qualify "$:/state/ref/$name$">>><a class="tc-tiddlylink-external">$name$</a></$button><$reveal type="popup" class="tc-popup-keep" state=<<qualify "$:/state/ref/$name$">>><div class="tc-drop-down" style="white-space:pre-line;font-size:14px;">$text$</div></$reveal>
+\end
+\define .ref-styl(name text color size dir)
 <a class="tc-tiddlylink-external" aria-label="$text$" data-cooltipz-dir="bottom-left" data-cooltipz-size="medium">$name$</a>
 \end
 \define .bigquote(_)

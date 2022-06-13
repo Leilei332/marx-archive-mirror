@@ -1,6 +1,6 @@
 # 中文马克思主义文库
 
-Neflify（推荐）：[🔗](https://marx-website.netlify.app)
+Netlify（推荐）：[🔗](https://marx-website.netlify.app)
 
 GitHub Pages网站：[🔗](https://leilei332.github.io/marx-archive-website/)
 

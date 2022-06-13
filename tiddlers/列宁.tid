@@ -1,9 +1,12 @@
 created: 20220523032119745
-modified: 20220610114508697
+modified: 20220613141119030
 title: 列宁
 type: text/vnd.tiddlywiki
 
+<div class="tc-message-box">
+
 <a href="##toc1" class="tc-tiddlylink-external">1893-1904</a> <a href="##toc2" class="tc-tiddlylink-external">1905</a> <a href="##toc3" class="tc-tiddlylink-external">1906-1916</a>  <a href="##toc4" class="tc-tiddlylink-external">1917</a> <a href="##toc5" class="tc-tiddlylink-external">1918</a> <a href="##toc6" class="tc-tiddlylink-external">1918-1924</a>
+</div>
 
 !! 1893-1904
 <a id="#toc1"/>
@@ -21,7 +24,7 @@ type: text/vnd.tiddlywiki
 * [[俄国社会民主党人抗议书]]
 * [[我们的纲领]]
 * [[我们运动的迫切任务]]
-* [[中国的战争（1900年12月）]]
+* [[中国的战争（1900年12月）|中国的战争]]
 * [[无政府主义和社会主义]]
 * [[我们纲领中的民族问题]]
 * [[五一节]]

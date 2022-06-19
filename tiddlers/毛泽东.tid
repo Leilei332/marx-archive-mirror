@@ -1,26 +1,26 @@
 created: 20220519072055690
-modified: 20220617110625706
+modified: 20220619122314310
 title: 毛泽东
 type: text/vnd.tiddlywiki
 
 <div class="tc-message-box">
 
-* <a class="tc-tiddlylink-external" href="##toc1">第一卷 第一次国内革命战争时期</a>
-** <a class="tc-tiddlylink-external" href="##toc2">第二次国内革命战争时期</a>
-* <a class="tc-tiddlylink-external" href="##toc3">第二卷 抗日战争时期（上）</a>
-* <a class="tc-tiddlylink-external" href="##toc4">第三卷 抗日战争时期（下）</a>
-* <a class="tc-tiddlylink-external" href="##toc5">第四卷 第三次国内革命战争时期</a>
+* <a class="tc-tiddlylink-external" href="##mzd1">第一卷 第一次国内革命战争时期</a>
+** <a class="tc-tiddlylink-external" href="##mzd2">第二次国内革命战争时期</a>
+* <a class="tc-tiddlylink-external" href="##mzd3">第二卷 抗日战争时期（上）</a>
+* <a class="tc-tiddlylink-external" href="##mzd4">第三卷 抗日战争时期（下）</a>
+* <a class="tc-tiddlylink-external" href="##mzd5">第四卷 第三次国内革命战争时期</a>
 </div>
 
 
 ! 第一卷 
-<a id="#toc1"/>
+<a id="#mzd1"/>
 
 !! 第一次国内革命战争时期
 # [[中国社会各阶级的分析]]
 # [[湖南农民运动考察报告]]
 
-<a id="#toc2"/>
+<a id="#mzd2"/>
 
 !! 第二次国内革命战争时期
 # [[中国的红色政权为什么能够存在？]]
@@ -41,7 +41,7 @@ type: text/vnd.tiddlywiki
 # [[矛盾论]]
 
 ! 第二卷
-<a id="##toc3"/>
+<a id="##mzd3"/>
 
 !! 抗日战争时期（上） 
 # [[反对日本进攻的方针、办法和前途]]
@@ -86,7 +86,7 @@ type: text/vnd.tiddlywiki
 # [[关于打退第二次反共高潮的总结]]
 
 ! 第三卷
-<a id="##toc4"/>
+<a id="##mzd4"/>
 
 !! 抗日战争时期（下）
 # [[《农村调查》的序言和跋]]
@@ -122,7 +122,7 @@ type: text/vnd.tiddlywiki
 # [[对日寇的最后一战]]
 
 ! 第四卷
-<a id="##toc5"/>
+<a id="##mzd5"/>
 
 !! 第三次国内革命时期
 # [[抗日战争胜利后的时局和我们的方针]]

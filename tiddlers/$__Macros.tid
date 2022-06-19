@@ -1,5 +1,5 @@
 created: 20220519054755697
-modified: 20220617084144641
+modified: 20220619101403643
 tags: $:/tags/Macro
 title: $:/Macros
 type: text/vnd.tiddlywiki
@@ -10,16 +10,16 @@ $_$
 </blockquote>
 \end
 \define .ref(name text)
-<$button class="tc-tiddlylink-external" tag="a" popup=<<qualify "$:/state/ref/$name$">>>$name$</$button><$reveal type="popup" class="tc-popup-keep" state=<<qualify "$:/state/ref/$name$">>><div class="tc-drop-down" style="white-space:pre-line;font-size:14px;">$text$</div></$reveal>
+<$button class="tc-tiddlylink-external" tag="a" popup=<<qualify "$:/state/ref/$name$">>>$name$</$button><$reveal type="popup" class="tc-popup-keep" state=<<qualify "$:/state/ref/$name$">>><div class="tc-drop-down" style="white-space:normal;font-size:14px;">$text$</div></$reveal>
 \end
 \define .ref-large(name text)
-<$button class="tc-tiddlylink-external" tag="a" popup=<<qualify "$:/state/ref/$name$">>>$name$</$button><$reveal type="popup" class="tc-popup-keep" state=<<qualify "$:/state/ref/$name$">>><div class="tc-drop-down" style="white-space:pre-line;font-size:14px;">$text$</div></$reveal>
+<$button class="tc-tiddlylink-external" tag="a" popup=<<qualify "$:/state/ref/$name$">>>$name$</$button><$reveal type="popup" class="tc-popup-keep" state=<<qualify "$:/state/ref/$name$">>><div class="tc-drop-down" style="white-space:normal;font-size:14px;">$text$</div></$reveal>
 \end
 \define .ref-large-right(name text)
-<$button class="tc-tiddlylink-external" tag="a" popup=<<qualify "$:/state/ref/$name$">>>$name$</$button><$reveal type="popup" class="tc-popup-keep" state=<<qualify "$:/state/ref/$name$">>><div class="tc-drop-down" style="white-space:pre-line;font-size:14px;">$text$</div></$reveal>
+<$button class="tc-tiddlylink-external" tag="a" popup=<<qualify "$:/state/ref/$name$">>>$name$</$button><$reveal type="popup" class="tc-popup-keep" state=<<qualify "$:/state/ref/$name$">>><div class="tc-drop-down" style="white-space:normal;font-size:14px;">$text$</div></$reveal>
 \end
 \define .ref-large-bottom(name text)
-<$button class="tc-tiddlylink-external" tag="a" popup=<<qualify "$:/state/ref/$name$">>>$name$</$button><$reveal type="popup" class="tc-popup-keep" state=<<qualify "$:/state/ref/$name$">>><div class="tc-drop-down" style="white-space:pre-line;font-size:14px;">$text$</div></$reveal>
+<$button class="tc-tiddlylink-external" tag="a" popup=<<qualify "$:/state/ref/$name$">>>$name$</$button><$reveal type="popup" class="tc-popup-keep" state=<<qualify "$:/state/ref/$name$">>><div class="tc-drop-down" style="white-space:normal;font-size:14px;">$text$</div></$reveal>
 \end
 \define .center(_) <p style="text-align:center;">$_$</p>
 \define .rt(_) <p style="text-align:right;">$_$</p>
